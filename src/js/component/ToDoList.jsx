@@ -114,7 +114,7 @@ const TodoList = () => {
                   Delete
                 </button>
                 <input
-                  type="checkbox"
+                  // type="checkbox"
                   onChange={() => handleUpdateTodo(index)}
                   checked={item.is_done}
                 />
